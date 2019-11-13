@@ -38,7 +38,7 @@ jobs:
         uses: paambaati/codeclimate-action@v2.3.0
         env:
           # Get it on https://codeclimate.com/repos/{repo id}/settings/test_reporter
-          CC_TEST_REPORTER_ID: b9948835cb7b1f7ad91577de6eab208a107192fa1f536c06dd8b22e23dfcb31c
+          CC_TEST_REPORTER_ID: 23c7ee088614ba3aa3c7b2e8feaaa80cede3c8e4c04bafcde1d9cb0359f5b8c3
         with:
           # The report file must be there, otherwise Code Climate won't find it
           coverageCommand: php vendor/bin/phpunit --coverage-text --coverage-clover ./clover.xml
