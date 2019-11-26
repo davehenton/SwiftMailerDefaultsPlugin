@@ -8,7 +8,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/95f7873c5a91e2494345/test_coverage)](https://codeclimate.com/github/Finesse/SwiftMailerDefaultsPlugin/test_coverage)
 
 This plugin adds a possibility to set default properties for the sent Messages 
-(default from address, reply to, subject and so on).
+(default from address, reply to, subject and so on). 
 
 ```php
 // Set up a Mailer
